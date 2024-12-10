@@ -4,13 +4,14 @@
 Summary: We aim to investigate the impacts that blurred training data have on a Resnet50's classification accuracy.
 We initially use transfer learning to train our ResNet50 model for 20 epochs on the Stanford Dogs Dataset. We also use the same images with gaussian and median blur to train our model. 
 We observe the impacts that this has on how the model is able to classify blurred AND unblurred images. 
+
 More detail here: [final paper]
 
 ## To use our code:
 
-### Data
-
 We have two directories: "data" & "resnet" 
+
+### Data
 
 Our data directory holds many subdirectories and also a "split_creation.py" file.
 
@@ -25,4 +26,11 @@ Lastly, to create a subdirectory with blurred training set and unblurred validat
 
 
 ### Resnet
+
+Our Resnet holds our "resnet50.py" file which does most of our heavy lifting.
+
+Simply running the file in ipython will begin the training and validating process. 
+To change which data directory you're using or number of training epochs, make adjustments to the code past line 295 according to instructions in the comments. 
+
+Accuracies per epoch will appear in the terminal as training occurs.
   

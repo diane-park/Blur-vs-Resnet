@@ -9,6 +9,8 @@ More detail here: [final paper]
 
 ## To use our code:
 
+FILE PATHING WILL BE DIFFERENT IF NOT RUN FROM THE CS SERVER FROM "/cs/cs153/projects/diane-jessica". CHANGE PATHING ACCORDINGLY.
+
 We have two directories: "data" & "resnet" 
 
 ### Data

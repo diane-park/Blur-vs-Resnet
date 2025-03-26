@@ -5,7 +5,7 @@ Summary: We aim to investigate the impacts that blurred training data have on a 
 We initially use transfer learning to train our ResNet50 model for 20 epochs on the Stanford Dogs Dataset. We also use the same images with gaussian and median blur to train our model. 
 We observe the impacts that this has on how the model is able to classify blurred AND unblurred images. 
 
-More detail here: [final paper]
+More detail here: [final paper](https://www.overleaf.com/project/6757a7db1e40058d69c536f2)
 
 ## To use our code:
 
